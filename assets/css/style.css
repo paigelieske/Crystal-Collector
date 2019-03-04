@@ -1,0 +1,62 @@
+body {
+    background: url(../images/tweed.png);
+    margin-top: 20px;
+}
+
+h1 {
+    color: fuchsia;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 28pt;
+    font-weight: bolder;
+    margin: 15px;
+}
+
+.instructions {
+    background: lightgray;
+    border: 2px solid gray;
+    width: 55%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12pt;
+    color: blue;
+    margin: 15px;
+    padding: 10px;
+    line-height: 20pt;
+    margin-bottom: 5px;
+}
+
+.randomNumberBox, .winsLosses {
+    background: lightskyblue;
+    border: 2px solid gray;
+    width: 15%;
+    margin: 15px;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18pt;
+    color: white;
+    float: left;
+    height: 80px;
+}
+
+.randomNumber, .total {
+    text-align: center;
+    line-height: 65px;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.crystals {
+    margin: 15px;
+    clear: both;
+}
+
+.totalBox {
+    background: lightcoral;
+    border: 2px solid gray;
+    width: 15%;
+    margin: 15px;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18pt;
+    color: white;
+    height: 80px;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>Crystal Collector</title>
+</head>
+<body>
+    <h1>Crystal Collector</h1>
+    
+    <div class="instructions">
+        <li>At the start of the game you are given a random number to match.</li>
+        <li>By clicking on each of the four crystals below you will add a specific amount of points to your total.</li>
+        <li>You win the game if your total matches the random number; but you lose if your total goes over.</li>
+        <li>Pay attention. The value of each crystal is hidden and they change with every game.</li>
+        <li>Good luck!</li>
+    </div>
+
+    <div class="randomNumberBox">
+        <h2>Match this number:</h2>
+        <p class="randomNumber"></p>
+    </div>
+
+    <div class="winsLosses">
+        <p class="totalWins">Wins: </p>
+        <br>
+        <p class="totalLosses">Losses: </p>
+    </div>
+
+    <div class="crystals">
+        <img src="assets/images/green.jpg" id="one" alt="Green Gem">
+        <img src="assets/images/purple.jpg" id="two" alt="Purple Gem">
+        <img src="assets/images/red.jpg" id="three" alt="Red Gem">
+        <img src="assets/images/yellow.jpg" id="four" alt="Yellow Gem">
+    </div>
+
+    <div class="totalBox">
+        <h2>Your total is: </h2>
+        <p class="total">0</p>
+    </div>    
+    
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+    crossorigin="anonymous"></script>
+    <script src="assets/javascript/game.js"></script>
+</body>
+</html>
